@@ -25,7 +25,14 @@ header {
     width: 90px;
     text-align: center;
     margin: 30px;
+    transition-duration: 0.5s;
+    transition-timing-function: easeInOutCubic;
 }
+
+#home:hover {
+    border-width: 10px;
+}
+
 
 a {
     text-decoration: none;
