@@ -4,6 +4,8 @@ body {
     flex-direction: column;
     position: relative;
     align-items: center;
+    min-height: 100vh;
+
 }
 
 header {
@@ -99,21 +101,26 @@ h1 {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .full-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .circle {
     width: 100;
     height: 100;
-    border-style: solid;
     border-radius: 50%;
+    border-style: solid;
     border-width: 9;
+
+    transition-property: border-width;
     transition-duration: 0.5s;
     transition-timing-function: easeInOutCubic;
 }
@@ -141,22 +148,28 @@ p#first{
 .circle#second {
     border-color: #E57E25;
     background-color: #ECD5C2;
-    text-align: center
+    text-align: center;
 }
 
 p#second{
     color: #E79854;
 }
+
 .circle#second img{
-    top: 10px;
+    top: 20px;
 }
 
 a {
     text-decoration: none;
 }
 
-a.i {
-
+.bottom{
+    font-family: Montserrat;
+    font-size: 10;
+    text-align: center;
+    width:max-content;
+    color: #5A6663;
+    bottom: 0;
 }
 
 
