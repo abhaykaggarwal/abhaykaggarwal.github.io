@@ -1,0 +1,238 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#FF9298, #A8D4F8);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+header {
+    position: relative;
+    right: 44%
+}
+
+#home {
+    font-family: Roboto Slab;
+    font-size: 20px;
+    color: #EFFEFB;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #EFFEFB;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 45px;
+    color: #EFFEFB;
+    width: 230px;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #EFFEFB;
+    padding: 15px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+p#quote {
+    font-family: Playfair Display;
+    font-size: 30;
+    color: #5A6663;
+    width: 508px;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+p#author {
+    font-family: Playfair Display;
+    font-size: 30;
+    color: #5A6663;
+    width: 508px;
+    position:relative;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+p#description {
+    font-family: Roboto Slab;
+    font-size: 20;
+    font-weight: 200;
+    font-stretch: expanded;
+    line-height: 150.4%;
+    color: #242928;
+    width: 508px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+}
+
+.frames#first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.frames#first div {
+    margin: 10px;
+}
+
+#wind {
+    width: 314px;
+    height: 197px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #F0FCF9;
+    position: relative;
+    justify-items: start;
+}
+
+#howl {
+    width: 314px;
+    height: 155px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #F0FCF9;
+    position: relative;
+    justify-items: start;
+}
+
+#porco{
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #F0FCF9;
+    position: relative;
+    justify-items: start;
+}
+
+#porco img {
+    position: absolute;
+    left: -60%;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: inherit;
+    height: inherit; 
+    opacity:0;
+    color: #CDE2DD;
+    transition: .5s ease-in-out;
+    background-color: rgba(41,58,46,0.5);
+    top: -10px;
+    left: -10px;
+    z-index: 1;
+}
+
+h3 {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 20;
+    color: #CDE2DD;
+    padding: 10px;
+    bottom: -20px;
+    right: 0;
+    position:absolute;
+}
+
+#wind:hover .overlay{
+    opacity: 1;
+  }
+
+#howl:hover .overlay{
+    opacity: 1;
+  }
+
+#porco:hover .overlay{
+    opacity: 1;
+}
+
+.frames#second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+.frames#second div {
+    margin: 10px;
+}
+
+#chihiro {
+    width: 200px;
+    height: 157px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #F0FCF9;
+    position: relative;
+    justify-items: start;
+}
+
+#totoro {
+    width: 200px;
+    height: 216.66px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #F0FCF9;
+    position: relative;
+    justify-items: start;
+}
+
+#totoro img {
+    position: absolute;
+    left: -60%;
+}
+
+#only {
+    width: 300px;
+    height: 217px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #F0FCF9;
+    position: relative;
+    justify-items: start;
+}
+
+#chihiro:hover .overlay{
+    opacity: 1;
+  }
+
+#totoro:hover .overlay{
+    opacity: 1;
+  }
+
+#only:hover .overlay{
+    opacity: 1;
+}
