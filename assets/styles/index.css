@@ -37,6 +37,9 @@ header {
     margin: 30px;
 }
 
+/* Animation taken from https://css-tricks.com/snippets/css/typewriter-effect/ 
+   Full credit goes to the article's author, Geoff Graham. */
+
 h1 {
     font-family: Roboto Slab;
     font-size: 65px;
@@ -53,10 +56,16 @@ h1 {
         blinker 1s step-end infinite;
 }
 
+/* Animation taken from https://css-tricks.com/snippets/css/typewriter-effect/ 
+   Full credit goes to the article's author, Geoff Graham. */
+
 @keyframes typing {
     from { width: 0 }
     to { width: 100%;}
 }
+
+/* Animation taken from https://css-tricks.com/snippets/css/typewriter-effect/ 
+   Full credit goes to the article's author, Geoff Graham. */
 
 @keyframes blinker {
     from, to { border-color: transparent }
