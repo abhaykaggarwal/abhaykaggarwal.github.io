@@ -63,7 +63,15 @@ h1 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 40px;
+
+    transition-duration: 0.5s;
+    transition-timing-function: easeInOutCubic;
 }
+
+h1:hover {
+    border-width: 15px;
+}
+
 
 #postit {
     background-image: linear-gradient(#FAEDCB, transparent);
@@ -115,10 +123,28 @@ p#haku {
     z-index: 1;
 }
 
+#haku_img img {
+    transition-duration: 0.4s;
+    transition-timing-function: easeInOutCubic;
+}
+
+#haku_img img:hover {
+    filter: brightness(70%);
+}
+
 #noface_img {
     position: absolute;
     left: 200px;
     top: 350px;
+}
+
+#noface_img img {
+    transition-duration: 0.4s;
+    transition-timing-function: easeInOutCubic;
+}
+
+#noface_img img:hover {
+    filter: brightness(70%);
 }
 
 #chihiro_img {
@@ -128,6 +154,15 @@ p#haku {
     margin-right: 60px;
     z-index: 2;
 } 
+
+#chihiro_img img {
+    transition-duration: 0.4s;
+    transition-timing-function: easeInOutCubic;
+}
+
+#chihiro_img img:hover {
+    filter: brightness(70%);
+}
 
 #clik {
     font-family: Montserrat;
