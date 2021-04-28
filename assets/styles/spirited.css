@@ -31,6 +31,7 @@ header {
 
 #home:hover {
     border-width: 10px;
+    cursor: pointer;
 }
 
 
@@ -70,6 +71,7 @@ h1 {
 
 h1:hover {
     border-width: 15px;
+    cursor: pointer;
 }
 
 
@@ -130,6 +132,7 @@ p#haku {
 
 #haku_img img:hover {
     filter: brightness(70%);
+    cursor: pointer;
 }
 
 #noface_img {
@@ -145,6 +148,7 @@ p#haku {
 
 #noface_img img:hover {
     filter: brightness(70%);
+    cursor: pointer;
 }
 
 #chihiro_img {
@@ -162,6 +166,7 @@ p#haku {
 
 #chihiro_img img:hover {
     filter: brightness(70%);
+    cursor: pointer;
 }
 
 #clik {

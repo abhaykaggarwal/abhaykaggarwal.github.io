@@ -31,6 +31,7 @@ header {
 
 #about:hover {
     border-width: 10px;
+    cursor: pointer;
 }
 
 #title {
@@ -127,6 +128,7 @@ h1 {
 
 .circle:hover {
     border-width: 20;
+    cursor: pointer;
 }
 
 p {

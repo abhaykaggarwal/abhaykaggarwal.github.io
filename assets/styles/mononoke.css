@@ -31,6 +31,7 @@ header {
 
 #home:hover {
     border-width: 10px;
+    cursor: pointer;
 }
 
 a {
@@ -68,6 +69,7 @@ h1 {
 
 h1:hover {
     border-width: 15px;
+    cursor: pointer;
 }
 
 #postit {
@@ -127,6 +129,7 @@ p#san {
 
 #san_img img:hover {
     filter: brightness(70%);
+    cursor: pointer;
 }
 
 #eboshi_img {
@@ -144,6 +147,7 @@ p#san {
 
 #eboshi_img img:hover {
     filter: brightness(70%);
+    cursor: pointer;
 }
 
 #forest_img {
@@ -161,6 +165,7 @@ p#san {
 
 #forest_img img:hover {
     filter: brightness(70%);
+    cursor: pointer;
 }
 
 #clik {

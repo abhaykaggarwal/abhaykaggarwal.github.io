@@ -29,6 +29,7 @@ header {
 
 #home:hover {
     border-width: 10px;
+    cursor: pointer;
 }
 
 a {
@@ -175,6 +176,7 @@ h3 {
 
 #howl:hover .overlay{
     opacity: 1;
+
   }
 
 #porco:hover .overlay{
